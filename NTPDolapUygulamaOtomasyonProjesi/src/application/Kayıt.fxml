@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane cache="true" prefHeight="568.0" prefWidth="424.0" style="-fx-background-color: #88bbf2;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.KayıtController">
+   <children>
+      <Label layoutX="126.0" layoutY="14.0" prefHeight="40.0" prefWidth="172.0" text="Kayıt Formu" textFill="#f0c589">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Label>
+      <TextField fx:id="kayıtKullanıcıAdTxt" layoutX="111.0" layoutY="78.0" prefHeight="40.0" prefWidth="180.0" promptText="Kullanıcı Adı" />
+      <TextField fx:id="KayıtEpostaTxt" layoutX="111.0" layoutY="276.0" prefHeight="40.0" prefWidth="180.0" promptText="E-Posta" />
+      <Button fx:id="UyeButton" layoutX="111.0" layoutY="504.0" mnemonicParsing="false" onAction="#ClickUyeOl" prefHeight="40.0" prefWidth="180.0" text="Üye Ol">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <TextField fx:id="kayıtKullanıcıSoyadTxt" layoutX="111.0" layoutY="138.0" prefHeight="40.0" prefWidth="180.0" promptText="Kullanıcı Soyadı" />
+      <TextField fx:id="kayıtKullanıcıTelTxt" layoutX="111.0" layoutY="205.0" prefHeight="40.0" prefWidth="180.0" promptText="Telefon Numarası" />
+      <PasswordField fx:id="KayıtSifreTxt" layoutX="111.0" layoutY="348.0" prefHeight="40.0" prefWidth="180.0" promptText="Şifre" />
+      <TextField fx:id="kayıtKullanıcıAdresTxt" layoutX="111.0" layoutY="411.0" prefHeight="70.0" prefWidth="180.0" promptText="Adres" />
+   </children>
+</AnchorPane>
